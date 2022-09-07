@@ -28,5 +28,12 @@
         android:id="@+id/navigation_detail"
         android:name="com.cubidevs.mobiedbapp2022.ui.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="tesla"
+            app:argType="com.cubidevs.mobiedbapp2022.server.model.Article" />
+        <action
+            android:id="@+id/action_navigation_detail_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
 </navigation>
