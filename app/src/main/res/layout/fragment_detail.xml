@@ -110,4 +110,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/summary_text_view2" />
+
+    <ImageView
+        android:id="@+id/favorites_image_view"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poster_image_view"
+        app:srcCompat="@drawable/ic_favorites" />
 </androidx.constraintlayout.widget.ConstraintLayout>
